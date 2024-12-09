@@ -95,16 +95,3 @@ img{
     font-size: 1em;
 }
 
-.credit{
-    text-align: center;
-}
-
-a:link, a:visited {
-  color: (internal value);
-  text-decoration: underline;
-  cursor: auto;
-}
-
-a:link:active, a:visited:active {
-  color: (internal value);
-}
