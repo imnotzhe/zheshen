@@ -37,7 +37,7 @@ img{
     cursor: pointer;
 }
 
-.nav{
+.navbar{
     display: flex;
     justify-content: center;
     height: 50px;
@@ -46,7 +46,7 @@ img{
     top: 0;
 }
 
-.nav::before{
+.navbar::before{
     content:"";
     position: absolute;
     background-color: rgba(0,0,0, 0.5);
@@ -54,22 +54,22 @@ img{
     width: 100%;
     z-index: 1;
 }
-.nav ul{
+.navbar ul{
     display: flex;
     list-style: none;
 }
 
-.nav ul li{
+.navbar ul li{
     font-size: 1.1rem;
 }
 
-.nav ul li a{
+.navbar ul li a{
     padding: 5px 20px;
     text-decoration: none;
     color: white;
 }
 
-.nav ul li a:hover{
+.navbar ul li a:hover{
     border-bottom: 2px solid yellow;
 }
  
